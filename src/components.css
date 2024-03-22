@@ -1,0 +1,395 @@
+.navPosition {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.nav-logo {
+    margin-left: 20px;
+}
+
+.customContainer {
+    border: 1px none red;
+    padding: 10px;
+}
+
+.customContainer1 {
+    border: 1px none red;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+
+}
+
+.customContainer1 .item1,
+.item2,
+.item3 {
+    border: 1px none red;
+    height: auto;
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+
+.box-container1 {
+    border: 5px none rgb(84, 171, 187);
+    padding: 10px;
+    text-align: left;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box-container1 h1,
+h2 {
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box-container1 p {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.box-container2 {
+    border: 5px none rgb(84, 171, 187);
+    padding: 10px;
+    text-align: left;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 160px;
+}
+
+.CustomImage {
+    margin-left: 20px;
+}
+
+.container12 {
+    width: 100%;
+    border: 1px none red;
+    box-shadow: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#f-item1,
+#f-item2,
+#f-item3,
+#f-item4 {
+    width: calc(25% - 20px);
+    padding: 20px;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    
+}
+
+#f-item1 h4,
+#f-item2 h4,
+#f-item3 h4,
+#f-item4 h4 {
+    margin-top: 0;
+}
+
+#f-item1 p,
+#f-item2 p,
+#f-item3 p,
+#f-item4 p {
+    margin-bottom: 0;
+}
+
+#f-item1:hover,
+#f-item2:hover,
+#f-item3:hover,
+#f-item4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 400);
+    cursor: pointer;
+}
+
+#f-item1 {
+    background-color: bisque;
+}
+
+#f-item2 {
+    background-color: burlywood;
+}
+
+#f-item3 {
+    background-color: rgb(214, 240, 214);
+}
+
+#f-item4 {
+    background-color: rgb(177, 183, 183);
+}
+
+
+
+.col1-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+}
+
+.col3-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+
+}
+
+.s-item1,
+.s-item2,
+.s-item3,
+.s-item4,
+.s-item5,
+.s-item6 {
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.s-item1 h4,
+.s-item2 h4,
+.s-item3 h4,
+.s-item4 h4,
+.s-item5 h4,
+.s-item6 h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.s-item1 p,
+.s-item2 p,
+.s-item3 p,
+.s-item4 p,
+.s-item5 p,
+.s-item6 p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.s-item1,
+.s-item2,
+.s-item3,
+.s-item4,
+.s-item5,
+.s-item6 {
+    border-radius: 10px;
+    border: 5px double rgb(28, 227, 160);
+
+}
+
+.rowContainer {
+    display: flex;
+    gap: 90px;
+    padding: 10px;
+}
+
+.containerImage {
+    height: 400px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.col-border0001 {
+    margin-top: 10px;
+    position: relative;
+}
+
+.form-input {
+    margin-bottom: 25px;
+    outline: none;
+    border: 1px solid rgb(58, 214, 162);
+}
+
+
+#text-position1 {
+    position: absolute;
+    left: 745px;
+    top: 175px;
+}
+
+#text-position2 {
+    position: absolute;
+    left: 745px;
+    top: 240px;
+}
+
+#text-position3 {
+    position: absolute;
+    left: 745px;
+    top: 300px;
+}
+
+#text-position4 {
+    position: absolute;
+    left: 745px;
+    top: 460px;
+}
+
+.text-danger {
+    font-size: 15px;
+    z-index: -1;
+}
+
+#message {
+    resize: none;
+}
+
+#btn1 {
+    display: block;
+    width: 100%;
+}
+
+.customWidth {
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.customWidth:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#customContainer0012 {
+    gap: 85px;
+    flex-wrap: wrap;
+}
+
+#NewsContainer {
+    flex-wrap: wrap;
+}
+
+.myCustomElement {
+    z-index: -1;
+    text-align: left;
+}
+
+.MyCustomContainer {
+    gap: 30;
+    row-gap: 30px;
+}
+
+
+
+.customButton {
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+}
+
+.buttonSuccessLine {
+    display: block;
+    max-width: 200px;
+}
+
+@media only screen and (max-width:600px) {
+
+    .container12,
+    .customContainer1,
+    #customContainer0012 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    #f-item1,
+    #f-item2,
+    #f-item3,
+    #f-item4 {
+        width: 90%;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+
+    .customContainer1 .item1,
+    .item2,
+    .item3 {
+        border: 1px none red;
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .ReadImage {
+        margin-bottom: 10px;
+    }
+
+    .col2-container {
+        margin-bottom: 20px;
+    }
+
+    #text-position1 {
+        left: 25px;
+        top: 663px;
+    }
+
+    #text-position2 {
+        left: 25px;
+        top: 725px;
+    }
+
+    #text-position3 {
+        left: 25px;
+        top: 790px;
+    }
+
+    #text-position4 {
+        left: 25px;
+        top: 945px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .customContainer1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ReadImage {
+        margin-bottom: 10px;
+        width: 500px;
+    }
+}
